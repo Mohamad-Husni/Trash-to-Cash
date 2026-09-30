@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { BrandLogo } from "@/components/brand-logo";
 import { usePathname } from "next/navigation";
 import { useAuthStore } from "@/lib/store/auth-store";
 import { RoleSwitcher } from "./role-switcher";
@@ -42,9 +43,7 @@ export function AppHeader() {
       <div className="flex h-14 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sapphire-gradient shadow-md glow-primary">
-              <Recycle className="h-5 w-5 text-white" />
-            </div>
+            <BrandLogo className="h-10 w-10 rounded-lg shadow-sm" />
             <span className="hidden bg-gradient-to-r from-[#003B73] to-[#0099FF] bg-clip-text text-lg font-bold text-transparent sm:inline dark:from-[#0066C5] dark:to-[#0099FF]">
               Trah 2 Cash
             </span>

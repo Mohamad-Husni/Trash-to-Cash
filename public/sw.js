@@ -1,9 +1,9 @@
-const CACHE_NAME = "t2c-v1";
+const CACHE_NAME = "t2c-v2";
 const OFFLINE_URL = "/offline";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll([OFFLINE_URL, "/"]))
+    caches.open(CACHE_NAME).then((cache) => cache.addAll([OFFLINE_URL, "/", "/brand/logo.jpg"]))
   );
   self.skipWaiting();
 });

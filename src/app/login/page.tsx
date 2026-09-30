@@ -3,7 +3,8 @@
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useAuthStore } from "@/lib/store/auth-store";
-import { Recycle, User, Truck, ShieldCheck, ArrowRight, Sparkles, MapPin, Coins, Settings } from "lucide-react";
+import { User, Truck, ShieldCheck, ArrowRight, Sparkles, MapPin, Coins, Settings } from "lucide-react";
+import { BrandLogo } from "@/components/brand-logo";
 import type { Role } from "@/types";
 
 export default function LoginPage() {
@@ -90,9 +91,7 @@ export default function LoginPage() {
         transition={{ duration: 0.5 }}
         className="mb-6 flex flex-col items-center gap-3"
       >
-        <div className="float flex h-20 w-20 items-center justify-center rounded-2xl bg-sapphire-gradient shadow-2xl glow-primary">
-          <Recycle className="h-10 w-10 text-white" />
-        </div>
+        <BrandLogo className="float h-24 w-24 rounded-2xl shadow-2xl sm:h-28 sm:w-28" />
         <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Trah 2 Cash
