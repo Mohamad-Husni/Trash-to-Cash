@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trah 2 Cash — Smart Waste Management",
+  title: "Bincoin — Smart Waste Management",
   description: "Smart Waste Management PWA — Book pickups, earn rewards, manage collections.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Trah 2 Cash",
+    title: "Bincoin",
   },
 };
 

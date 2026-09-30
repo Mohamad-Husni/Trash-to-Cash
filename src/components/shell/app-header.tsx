@@ -45,7 +45,7 @@ export function AppHeader() {
           <Link href="/" className="flex items-center gap-2">
             <BrandLogo className="h-10 w-10 rounded-lg shadow-sm" />
             <span className="hidden bg-gradient-to-r from-[#003B73] to-[#0099FF] bg-clip-text text-lg font-bold text-transparent sm:inline dark:from-[#0066C5] dark:to-[#0099FF]">
-              Trah 2 Cash
+              Bincoin
             </span>
           </Link>
           <nav className="ml-4 hidden max-w-[calc(100vw-180px)] items-center gap-1 overflow-x-auto md:ml-6 md:flex lg:max-w-none lg:gap-1.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">

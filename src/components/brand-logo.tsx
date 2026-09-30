@@ -11,7 +11,7 @@ export function BrandLogo({ className }: { className?: string }) {
     >
       <Image
         src="/brand/logo.jpg"
-        alt="Trah 2 Cash logo"
+        alt="Bincoin logo"
         width={1600}
         height={1600}
         unoptimized

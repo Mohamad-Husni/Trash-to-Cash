@@ -94,7 +94,7 @@ export default function LoginPage() {
         <BrandLogo className="float h-24 w-24 rounded-2xl shadow-2xl sm:h-28 sm:w-28" />
         <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Trah 2 Cash
+            Bincoin
           </h1>
           <p className="mt-1 flex items-center justify-center gap-1.5 text-sm font-medium text-[#0099FF]">
             <Sparkles className="h-3.5 w-3.5" />

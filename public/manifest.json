@@ -1,6 +1,6 @@
 {
-  "name": "Trah 2 Cash — Smart Waste Management",
-  "short_name": "T2C",
+  "name": "Bincoin — Smart Waste Management",
+  "short_name": "Bincoin",
   "description": "Smart Waste Management PWA — Book pickups, earn rewards, manage collections.",
   "start_url": "/login",
   "display": "standalone",

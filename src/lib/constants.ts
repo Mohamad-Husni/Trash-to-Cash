@@ -86,6 +86,7 @@ export const MIN_FILL_FOR_PICKUP = 20;
 export const HIGH_FILL_THRESHOLD = 80;
 
 export const STORAGE_KEYS = {
+  // Keep the original keys so the Bincoin rename preserves existing local data.
   AUTH: "t2c-auth",
   DATA: "t2c-data",
   SETTINGS: "t2c-settings",

@@ -8,7 +8,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-## Project: Trah 2 Cash — Smart Waste Management PWA
+## Project: Bincoin — Smart Waste Management PWA
 
 ### Build & Dev Commands
 - `npm run dev` — start dev server

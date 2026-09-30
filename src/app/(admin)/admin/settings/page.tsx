@@ -58,7 +58,7 @@ export default function AdminSettingsPage() {
     } else {
       addVoucher({
         ...voucherForm,
-        qrPayload: voucherForm.qrPayload || `T2C:VOUCHER:${Date.now()}`,
+        qrPayload: voucherForm.qrPayload || `BINCOIN:VOUCHER:${Date.now()}`,
       });
     }
     setShowVoucherForm(false);

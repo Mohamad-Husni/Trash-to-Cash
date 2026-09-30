@@ -1,4 +1,4 @@
-const CACHE_NAME = "t2c-v2";
+const CACHE_NAME = "bincoin-v1";
 const OFFLINE_URL = "/offline";
 
 self.addEventListener("install", (event) => {
