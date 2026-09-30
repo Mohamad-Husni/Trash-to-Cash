@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Vercel deployment
+
+Import `Mohamad-Husni/Trash-to-Cash` and deploy the `main` branch with the repository root as the Root Directory. The committed `vercel.json` selects Next.js, installs dependencies with `npm ci`, runs `npm run build`, and uses `.next` as the build output. Dependencies and build files are generated during deployment and must not be committed.
+
+The `/` page redirects in the browser to `/login` or the signed-in user's dashboard. Next.js handles nested and dynamic routes directly; no catch-all rewrite to `index.html` is needed.
+
+If Vercel shows its platform `404 NOT_FOUND` page, check that the production domain points to the latest successful deployment and that the project's Root Directory is the repository root. For real Google Maps, configure `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` before building; without it the app uses its fallback map.
+
 ## Getting Started
 
 First, run the development server:
